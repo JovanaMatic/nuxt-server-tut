@@ -1,4 +1,3 @@
-export default defineEventHandler(() => {
-  // console.log(event)
+export default defineEventHandler((event) => {
   return 'hello world'
 })
